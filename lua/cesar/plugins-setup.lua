@@ -20,7 +20,7 @@ local status, packer = pcall(require, "packer")
 if not status then
   return 
 end
-
+-- packets 
 return packer.startup(function(use)
   use("wbthomason/packer.nvim")
   -- lua functions that many plugins use

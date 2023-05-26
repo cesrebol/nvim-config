@@ -5,4 +5,5 @@ require("cesar.core.colorscheme")
 require("cesar.plugins.comment")
 require("cesar.plugins.nvim-tree")
 require("cesar.plugins.lualine")
+require("cesar.plugins.telescope")
 

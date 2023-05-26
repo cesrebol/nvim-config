@@ -46,6 +46,10 @@ return packer.startup(function(use)
   use("kyazdani42/nvim-web-devicons")
   -- statusline 
   use("nvim-lualine/lualine.nvim")
+  
+  -- fuzzy finder
+  use({"nvim-telescope/telescope-fzf-native.nvim", run = "make" })
+  use({"nvim-telescope/telescope.nvim", branch = "0.1.x" })
 
   if packer_bootstrap then
     require("packer").sync()
